@@ -1,0 +1,49 @@
+name: .NET CI/CD Pipeline
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    
+    # Setup .NET SDK
+    - name: Setup .NET
+      uses: actions/setup-dotnet@v1
+      with:
+        dotnet-version: '6.0.x' # Specify your .NET version here
+
+    # Restore dependencies
+    - name: Restore dependencies
+      run: dotnet restore
+      
+    # Run StyleCop or equivalent (assuming dotnet format is sufficient for your needs)
+    - name: Lint with dotnet format
+      run: dotnet format --check
+    
+    # Build the project in Debug configuration
+    - name: Build (Debug)
+      run: dotnet build --no-restore --configuration Debug
+      
+    # Build the project in Release configuration
+    - name: Build (Release)
+      run: dotnet build --no-restore --configuration Release
+      
+    # Run static code analysis (assuming .NET analyzers cover your needs)
+    - name: Run static code analysis
+      run: dotnet build --no-restore /p:RunCodeAnalysis=true
+      
+    # Run unit tests
+    - name: Test
+      run: dotnet test --no-build --verbosity normal
+
+    # Build documentation (placeholder for your specific documentation tool)
+    # This example assumes you have a script or command line tool to generate and publish documentation
+    - name: Build and Publish Documentation
+      run: echo "Replace this step with your documentation generation and publishing steps."
