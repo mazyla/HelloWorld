@@ -1,0 +1,14 @@
+/Users/mariozyla/Documents/CS509/handson12/HelloWorld/bin/Release/net8.0/HelloWorld
+/Users/mariozyla/Documents/CS509/handson12/HelloWorld/bin/Release/net8.0/HelloWorld.deps.json
+/Users/mariozyla/Documents/CS509/handson12/HelloWorld/bin/Release/net8.0/HelloWorld.runtimeconfig.json
+/Users/mariozyla/Documents/CS509/handson12/HelloWorld/bin/Release/net8.0/HelloWorld.dll
+/Users/mariozyla/Documents/CS509/handson12/HelloWorld/bin/Release/net8.0/HelloWorld.pdb
+/Users/mariozyla/Documents/CS509/handson12/HelloWorld/obj/Release/net8.0/HelloWorld.GeneratedMSBuildEditorConfig.editorconfig
+/Users/mariozyla/Documents/CS509/handson12/HelloWorld/obj/Release/net8.0/HelloWorld.AssemblyInfoInputs.cache
+/Users/mariozyla/Documents/CS509/handson12/HelloWorld/obj/Release/net8.0/HelloWorld.AssemblyInfo.cs
+/Users/mariozyla/Documents/CS509/handson12/HelloWorld/obj/Release/net8.0/HelloWorld.csproj.CoreCompileInputs.cache
+/Users/mariozyla/Documents/CS509/handson12/HelloWorld/obj/Release/net8.0/HelloWorld.dll
+/Users/mariozyla/Documents/CS509/handson12/HelloWorld/obj/Release/net8.0/refint/HelloWorld.dll
+/Users/mariozyla/Documents/CS509/handson12/HelloWorld/obj/Release/net8.0/HelloWorld.pdb
+/Users/mariozyla/Documents/CS509/handson12/HelloWorld/obj/Release/net8.0/HelloWorld.genruntimeconfig.cache
+/Users/mariozyla/Documents/CS509/handson12/HelloWorld/obj/Release/net8.0/ref/HelloWorld.dll
