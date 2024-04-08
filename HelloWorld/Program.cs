@@ -1,6 +1,10 @@
-﻿namespace HelloWorld
+﻿// <copyright file="Program.cs" company="PlaceholderCompany">
+// Copyright (c) PlaceholderCompany. All rights reserved.
+// </copyright>
+
+namespace HelloWorld
 {
-    public class Program
+    public static class Program
     {
 #pragma warning disable CA1801 // Parameter args of method Main is never used
         public static void Main(string[] args)
@@ -18,5 +22,4 @@
             return "Hello World!";
         }
     }
-
 }
